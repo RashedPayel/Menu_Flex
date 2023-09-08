@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.devide{
+    display: flex;
+    align-items: center;
+    background-color: coral;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 5px;
+    background-color: wheat;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.btn a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: wheat;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.btn a:hover{
+    background-color: rgb(87, 146, 27);
+    color: wheat;
+}
+
+.social i{
+    color: wheat;
+    margin: 0 5px;
+    font-size: 30px;
+}
+
+.social i:hover{
+    color: blue;
+}
